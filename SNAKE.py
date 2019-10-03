@@ -71,11 +71,11 @@ def pausa():
 
 
 def puntos(score):
-    text = font.render("Puntaje: "+str(score), True, Negro)
+    text = font.render("Puntuacion: "+str(score), True, Negro)
     superficie.blit(text, [0,0])
 
 def Velocidad(speed):
-    text = font.render("Velocidad: "+str(speed), True, Negro)
+    text = font.render("Rapidez: "+str(speed), True, Negro)
     superficie.blit(text, [200,0])
 
 def intro_juego():
