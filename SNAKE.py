@@ -71,7 +71,7 @@ def pausa():
 
 
 def puntos(score):
-    text = font.render("Puntos: "+str(score), True, Negro)
+    text = font.render("Puntaje: "+str(score), True, Negro)
     superficie.blit(text, [0,0])
 
 def Velocidad(speed):
